@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllTodosScreen to match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RNCSafeAreaProvider
+    onInsetsChange={[Function]}
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={null}
+      >
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "rgb(255, 255, 255)",
+                "borderBottomColor": "rgb(216, 216, 216)",
+                "flex": 1,
+                "shadowColor": "rgb(216, 216, 216)",
+                "shadowOffset": Object {
+                  "height": 0.5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.85,
+                "shadowRadius": 0,
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Object {
+              "height": 64,
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "opacity": undefined,
+              "transform": undefined,
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "height": 20,
+              }
+            }
+          />
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              pointerEvents="box-none"
+              style={
+                Object {
+                  "marginHorizontal": 16,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                accessibilityRole="header"
+                aria-level="1"
+                collapsable={false}
+                nativeID="animatedComponent"
+                numberOfLines={1}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "color": "rgb(28, 28, 30)",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                MockedScreen
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <RNSScreenContainer
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <RNSScreen
+        activityState={2}
+        forwardedRef={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        />
+        <View
+          accessibilityElementsHidden={false}
+          closing={false}
+          gestureVelocityImpact={0.3}
+          importantForAccessibility="auto"
+          onClose={[Function]}
+          onGestureBegin={[Function]}
+          onGestureCanceled={[Function]}
+          onGestureEnd={[Function]}
+          onOpen={[Function]}
+          onTransition={[Function]}
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "overflow": undefined,
+              },
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+          transitionSpec={
+            Object {
+              "close": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+              "open": Object {
+                "animation": "spring",
+                "config": Object {
+                  "damping": 500,
+                  "mass": 3,
+                  "overshootClamping": true,
+                  "restDisplacementThreshold": 10,
+                  "restSpeedThreshold": 10,
+                  "stiffness": 1000,
+                },
+              },
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            needsOffscreenAlphaCompositing={false}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "rgb(242, 242, 242)",
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "shadowColor": "#000",
+                    "shadowOffset": Object {
+                      "height": 1,
+                      "width": -1,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 5,
+                    "top": 0,
+                    "width": 3,
+                  }
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "backgroundColor": "rgb(242, 242, 242)",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column-reverse",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <RCTSafeAreaView
+                      emulateUnlessSupported={true}
+                      style={
+                        Object {
+                          "backgroundColor": "#e4e5e6",
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "#e4e5e6",
+                            "flex": 1,
+                          }
+                        }
+                      />
+                    </RCTSafeAreaView>
+                    <RCTSafeAreaView
+                      emulateUnlessSupported={true}
+                      style={
+                        Object {
+                          "backgroundColor": "#e4e5e6",
+                          "flex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "backgroundColor": "#e4e5e6",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
+                            "width": "100%",
+                          }
+                        }
+                        testID="tool_bar"
+                      >
+                        <View
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#e4e5e6",
+                              "height": 24,
+                              "justifyContent": "center",
+                              "margin": 8,
+                              "opacity": 1,
+                              "width": 24,
+                            }
+                          }
+                          testID="back_button"
+                        >
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight={24}
+                            bbWidth={24}
+                            focusable={false}
+                            height={24}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                Object {
+                                  "flex": 0,
+                                  "height": 24,
+                                  "width": 24,
+                                },
+                              ]
+                            }
+                            vbHeight={512}
+                            vbWidth={512}
+                            width={24}
+                            x="0px"
+                            y="0px"
+                          >
+                            <RNSVGGroup>
+                              <RNSVGPath
+                                d="M198.608 246.104L382.664 62.04c5.068-5.056 7.856-11.816 7.856-19.024 0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12C361.476 2.792 354.712 0 347.504 0s-13.964 2.792-19.028 7.864L109.328 227.008c-5.084 5.08-7.868 11.868-7.848 19.084-.02 7.248 2.76 14.028 7.848 19.112l218.944 218.932c5.064 5.072 11.82 7.864 19.032 7.864 7.208 0 13.964-2.792 19.032-7.864l16.124-16.12c10.492-10.492 10.492-27.572 0-38.06L198.608 246.104z"
+                                fill={4294332249}
+                                propList={
+                                  Array [
+                                    "fill",
+                                  ]
+                                }
+                              />
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#f64f59",
+                                "fontSize": 18,
+                                "fontWeight": "500",
+                                "marginVertical": 4,
+                                "padding": 2,
+                                "textAlign": "left",
+                                "textAlignVertical": "center",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#e4e5e6",
+                              "height": 24,
+                              "justifyContent": "center",
+                              "margin": 8,
+                              "width": 24,
+                            }
+                          }
+                        />
+                      </View>
+                      <View
+                        style={
+                          Object {
+                            "backgroundColor": "#e4e5e6",
+                            "flex": 1,
+                            "paddingHorizontal": 8,
+                          }
+                        }
+                      >
+                        <Modal
+                          animationType="fade"
+                          hardwareAccelerated={false}
+                          transparent={true}
+                          visible={true}
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "backgroundColor": undefined,
+                                "flex": 1,
+                                "justifyContent": "center",
+                                "opacity": 0.75,
+                              }
+                            }
+                          >
+                            <ActivityIndicator
+                              color="#f64f59"
+                              size={128}
+                            />
+                          </View>
+                        </Modal>
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#e4e5e6",
+                              "flexDirection": "row",
+                              "justifyContent": "space-around",
+                              "width": "100%",
+                            }
+                          }
+                        >
+                          <RNGestureHandlerButton
+                            collapsable={false}
+                            exclusive={true}
+                            onGestureEvent={[Function]}
+                            onGestureHandlerEvent={[Function]}
+                            onGestureHandlerStateChange={[Function]}
+                            onHandlerStateChange={[Function]}
+                            rippleColor={0}
+                          >
+                            <View
+                              accessible={true}
+                              style={
+                                Object {
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#e4e5e6",
+                                  "borderColor": "#00416a",
+                                  "borderRadius": 8,
+                                  "borderWidth": 0.5,
+                                  "margin": 8,
+                                  "opacity": 1,
+                                  "padding": 8,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Object {
+                                    "backgroundColor": "#e4e5e6",
+                                    "color": "#00416a",
+                                    "fontSize": 18,
+                                    "fontWeight": "900",
+                                    "textAlign": "center",
+                                    "textAlignVertical": "center",
+                                  }
+                                }
+                              >
+                                active tasks
+                              </Text>
+                            </View>
+                          </RNGestureHandlerButton>
+                          <RNGestureHandlerButton
+                            collapsable={false}
+                            exclusive={true}
+                            onGestureEvent={[Function]}
+                            onGestureHandlerEvent={[Function]}
+                            onGestureHandlerStateChange={[Function]}
+                            onHandlerStateChange={[Function]}
+                            rippleColor={0}
+                          >
+                            <View
+                              accessible={true}
+                              style={
+                                Object {
+                                  "alignSelf": "center",
+                                  "backgroundColor": "#e4e5e6",
+                                  "borderColor": "#00416a",
+                                  "borderRadius": 8,
+                                  "borderWidth": 0.5,
+                                  "margin": 8,
+                                  "opacity": 1,
+                                  "padding": 8,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  Object {
+                                    "backgroundColor": "#e4e5e6",
+                                    "color": "#00416a",
+                                    "fontSize": 18,
+                                    "fontWeight": "900",
+                                    "textAlign": "center",
+                                    "textAlignVertical": "center",
+                                  }
+                                }
+                              >
+                                done tasks
+                              </Text>
+                            </View>
+                          </RNGestureHandlerButton>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "flex": 1,
+                              "paddingVertical": 8,
+                            }
+                          }
+                        >
+                          <RCTScrollView
+                            ListEmptyComponent={
+                              <EmptyList
+                                error="list is empty !"
+                              />
+                            }
+                            data={Array []}
+                            getItem={[Function]}
+                            getItemCount={[Function]}
+                            keyExtractor={[Function]}
+                            onContentSizeChange={[Function]}
+                            onLayout={[Function]}
+                            onMomentumScrollBegin={[Function]}
+                            onMomentumScrollEnd={[Function]}
+                            onScroll={[Function]}
+                            onScrollBeginDrag={[Function]}
+                            onScrollEndDrag={[Function]}
+                            removeClippedSubviews={false}
+                            renderItem={[Function]}
+                            scrollEventThrottle={50}
+                            showsVerticalScrollIndicator={false}
+                            stickyHeaderIndices={Array []}
+                            testID="item_list"
+                            viewabilityConfigCallbackPairs={Array []}
+                          >
+                            <View>
+                              <View
+                                accessible={true}
+                                focusable={false}
+                                onClick={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "alignSelf": "center",
+                                    "backgroundColor": "transparent",
+                                    "justifyContent": "center",
+                                    "margin": 32,
+                                    "opacity": 1,
+                                    "padding": 32,
+                                    "width": "100%",
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    Object {
+                                      "color": "#ef233c",
+                                      "fontSize": 18,
+                                      "textAlign": "center",
+                                    }
+                                  }
+                                >
+                                  list is empty !
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTScrollView>
+                        </View>
+                        <View
+                          accessible={true}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "backgroundColor": "#12c2e9",
+                              "borderRadius": 28,
+                              "bottom": 8,
+                              "elevation": 1,
+                              "height": 56,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "position": "absolute",
+                              "right": 8,
+                              "shadowColor": "#000",
+                              "shadowOffset": Object {
+                                "height": 0.5,
+                                "width": 0,
+                              },
+                              "shadowOpacity": 0.9,
+                              "shadowRadius": 1,
+                              "width": 56,
+                              "zIndex": 1,
+                            }
+                          }
+                        >
+                          <RNSVGSvgView
+                            align="xMidYMid"
+                            bbHeight={32}
+                            bbWidth={32}
+                            focusable={false}
+                            height={32}
+                            meetOrSlice={0}
+                            minX={0}
+                            minY={0}
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "borderWidth": 0,
+                                },
+                                Object {
+                                  "flex": 0,
+                                  "height": 32,
+                                  "width": 32,
+                                },
+                              ]
+                            }
+                            vbHeight={512}
+                            vbWidth={512}
+                            width={32}
+                            x="0px"
+                            y="0px"
+                          >
+                            <RNSVGGroup>
+                              <RNSVGPath
+                                d="M187.733 0H17.067C7.641 0 0 7.641 0 17.067v170.667c0 9.426 7.641 17.067 17.067 17.067h170.667c9.426 0 17.067-7.641 17.067-17.067V17.067C204.8 7.641 197.159 0 187.733 0zm-17.066 170.667H34.133V34.133h136.533v136.534zM426.667 0H256c-9.426 0-17.067 7.641-17.067 17.067v170.667c0 9.426 7.641 17.067 17.067 17.067h170.667c9.426 0 17.067-7.641 17.067-17.067V17.067C443.733 7.641 436.092 0 426.667 0zM409.6 170.667H273.067V34.133H409.6v136.534zM187.733 238.933H17.067C7.641 238.933 0 246.574 0 256v170.667c0 9.426 7.641 17.067 17.067 17.067h170.667c9.426 0 17.067-7.641 17.067-17.067V256c-.001-9.426-7.642-17.067-17.068-17.067zM170.667 409.6H34.133V273.067h136.533V409.6zM426.667 324.267H358.4V256c0-9.426-7.641-17.067-17.067-17.067s-17.067 7.641-17.067 17.067v68.267H256c-9.426 0-17.067 7.641-17.067 17.067S246.574 358.4 256 358.4h68.267v68.267c0 9.426 7.641 17.067 17.067 17.067s17.067-7.641 17.067-17.067V358.4h68.267c9.426 0 17.067-7.641 17.067-17.067s-7.643-17.066-17.068-17.066z"
+                                fill={4293191142}
+                                propList={
+                                  Array [
+                                    "fill",
+                                  ]
+                                }
+                              />
+                            </RNSVGGroup>
+                          </RNSVGSvgView>
+                        </View>
+                      </View>
+                    </RCTSafeAreaView>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RNSScreen>
+    </RNSScreenContainer>
+  </RNCSafeAreaProvider>
+</View>
+`;

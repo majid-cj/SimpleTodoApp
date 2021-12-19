@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test ItemList to match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <RCTScrollView
+    ListEmptyComponent={
+      <EmptyList
+        error="list is empty !"
+      />
+    }
+    data={
+      Array [
+        Object {
+          "date": "2020-12-12",
+          "id": "1",
+          "title": "test",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    testID="item_list"
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#00416a",
+              "borderRadius": 8,
+              "height": 56,
+              "margin": 4,
+              "opacity": 1,
+              "padding": 8,
+            }
+          }
+          testID="task_item"
+        >
+          <Text
+            style={
+              Object {
+                "color": "#e4e5e6",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginVertical": 2,
+                "textAlign": "left",
+                "textAlignVertical": "center",
+              }
+            }
+          >
+            test
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#f64f59",
+                "fontSize": 12,
+                "fontWeight": "500",
+                "marginVertical": 2,
+                "textAlign": "left",
+                "textAlignVertical": "center",
+              }
+            }
+          >
+            2020-12-12
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
