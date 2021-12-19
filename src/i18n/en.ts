@@ -16,7 +16,7 @@ export default {
     todo_desc: 'todo description',
   },
   screen: {
-    view_tasks: 'Todo App Home',
+    view_tasks: 'App Home',
     new_task: 'create new task',
   },
 };
