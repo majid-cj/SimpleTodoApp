@@ -4,7 +4,7 @@
 
 2- then run "docker compose up --build"
 
-3- his "ifconfig | grep inet" in your terminal then get your public id
+3- hit "ifconfig | grep inet" in your terminal then get your public id
 
 # app setting 
 
