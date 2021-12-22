@@ -20,6 +20,7 @@ export const AllTodosScreen: FC = () => {
   const {
     todoList: {loading, error, data},
     getAllTodoList,
+    getAllTodoListClearState,
   } = useTodo();
   const [todoList, setTodoList] = useState<TodoList>([]);
   const isFocused = useIsFocused();
@@ -27,6 +28,8 @@ export const AllTodosScreen: FC = () => {
   useEffect(() => {
     if (isFocused) {
       getAllTodoList(task_id);
+    } else {
+      getAllTodoListClearState();
     }
   }, [isFocused]);
 
