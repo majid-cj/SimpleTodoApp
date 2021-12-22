@@ -420,7 +420,7 @@ exports[`TaskScreen to match snapshot 1`] = `
                             ]
                           }
                         >
-                          Todo App Home
+                          App Home
                         </Text>
                         <View
                           style={
