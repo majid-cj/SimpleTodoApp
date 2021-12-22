@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useState} from 'react';
-import {useNavigation, useRoute} from '@react-navigation/native';
+import {useIsFocused, useNavigation, useRoute} from '@react-navigation/native';
 import {
   FloatingButton,
   GroupButton,
@@ -22,10 +22,13 @@ export const AllTodosScreen: FC = () => {
     getAllTodoList,
   } = useTodo();
   const [todoList, setTodoList] = useState<TodoList>([]);
+  const isFocused = useIsFocused();
 
   useEffect(() => {
-    getAllTodoList(task_id);
-  }, [task_id]);
+    if (isFocused) {
+      getAllTodoList(task_id);
+    }
+  }, [isFocused]);
 
   useEffect(() => {
     if (data) {
